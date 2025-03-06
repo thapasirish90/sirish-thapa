@@ -1,0 +1,45 @@
+.sidebar
+ {
+  display:flex;
+  flex-direction: column;
+  position:fixed;
+  z-index:2;
+  top:53px;
+  bottom:0px;
+  left:0px;
+  right:500px;
+  width:80px;
+  background-color: white;
+  align-items:center;
+ 
+  
+ }
+
+ .side-icons{
+ height:25px;
+ margin-bottom: 4px;
+ }
+ .side-icons-background/*(.side-icons-background side-icons)this selects the two element main div called .side-icons-background and .image which in inside .side-icons-background div*/
+ {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:75px;
+  width:75px;
+  margin-top:5px;
+  cursor:pointer;
+ }
+ .side-icons-background:hover
+ {
+  background-color: lightgray;
+ }
+  
+ 
+ .side-bar-para
+ {
+  font-size:10px;
+  margin-top:3px;
+
+  
+ }
