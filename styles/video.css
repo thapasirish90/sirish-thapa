@@ -7,8 +7,18 @@
   row-gap: 30px;
   font-family: Roboto,Arial;
   background-color: rgb(237, 237, 237);
- 
-  ;  
+}
+@media (max-width: 1100px) {
+  .vid-preview-master
+  {
+    grid-template-columns:1fr 1fr 1fr;
+  }
+}
+@media (max-width:772px) {
+  .vid-preview-master
+  {
+    grid-template-columns:1fr 1fr;
+  }
 }
 .video-preview-1{
  
